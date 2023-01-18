@@ -1,0 +1,26 @@
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    height: 5rem;
+    background-color: white;
+    border-bottom: 2px solid red;
+    color: #006565;
+
+    .nav-link {
+        color: #006565 !important;
+    }
+
+    input:active {
+        border-color: #006565;
+    }
+
+    button {
+
+        &:hover {
+            background-color: #006565 !important;
+        }
+    }
+
+
+}

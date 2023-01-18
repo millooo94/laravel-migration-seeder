@@ -10819,3 +10819,80 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
+  height: 5rem;
+  background-color: white;
+  border-bottom: 2px solid red;
+  color: #006565;
+}
+header .nav-link {
+  color: #006565 !important;
+}
+header input:active {
+  border-color: #006565;
+}
+header button:hover {
+  background-color: #006565 !important;
+}
+
+.train-ride {
+  position: relative;
+  background-color: white;
+  border: 1px solid rgb(201, 201, 201);
+  border-radius: 7px;
+}
+.train-ride .departure .hour, .train-ride .arrival .hour {
+  color: #006565;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.train-ride .time {
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: gray;
+}
+.train-ride a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 100px;
+  background-color: #006565;
+}
+.train-ride i {
+  color: white;
+}
+
+.line {
+  width: 20%;
+  border-top: 1px dashed rgb(191, 191, 191);
+}
+
+.message {
+  background-color: lightgray;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #890505;
+}
+
+footer {
+  height: 3rem;
+  background-color: yellow;
+}
+
+main {
+  background-color: #e3e6ed;
+  padding-top: 5rem;
+}
