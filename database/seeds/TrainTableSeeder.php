@@ -44,17 +44,3 @@ class TrainTableSeeder extends Seeder
         }
     }
 }
-
-
-
-// $train = new Train();
-// $train->company = 'Regionale';
-// $train->departure_station = 'Catania';
-// $train->arrival_station = 'Acireale';
-// $train->daparture_time = '16:00:00';
-// $train->arrival_time = '16:23:00';
-// $train->train_code = [rand(1000,9999), rand(10000, 99999)][rand(0, 1)];
-// $train->carriage_number = [8, 11][rand(0,1)];
-// $train->boolean('in_time');
-// $train->boolean('cancelled');
-// $train->save();
