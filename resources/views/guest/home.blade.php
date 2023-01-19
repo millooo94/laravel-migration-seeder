@@ -1,9 +1,6 @@
 @extends('guest.layouts.base')
 
 @section('content')
-<?php
-
-?>
 <div class="row g-4">
     @foreach ($arrResults as $result)
     <div class="col-12">

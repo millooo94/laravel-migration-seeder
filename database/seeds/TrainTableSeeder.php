@@ -34,11 +34,15 @@ class TrainTableSeeder extends Seeder
 
             $train->train_code = [rand(1000,9999), rand(10000, 99999)][rand(0, 1)];
 
-            $train->carriage_number = [8, 11][rand(0,1)];
+            if($train->company === 'Regionale' || $train->company === 'Regionale Veloce' || $train->company === 'Trenord' || $train->company === 'TTPER') {
+                $train->carriage_number = 8;
+            } else {
+                $train->carriage_number = 11;
+            };
 
-            $train->in_time = rand(1, 0);
+            $train->in_time = $faker->randomElement([1, 1, 1, 1, 0]);
 
-            $train->cancelled = rand(1,0);
+            $train->cancelled = $faker->randomElement([1, 0, 0, 0, 0 , 0, 0, 0, 0, 0]);
 
             $train->save();
         }
