@@ -4,6 +4,10 @@
     border: 1px solid rgb(201, 201, 201);
     border-radius: 7px;
 
+    .train-code {
+        color: rgb(101, 101, 101);
+    }
+
     .departure .hour, .arrival .hour {
         color: #006565;
         font-size: 1.5rem;

@@ -10835,6 +10835,9 @@ header {
   border-bottom: 2px solid red;
   color: #006565;
 }
+header h1, header .h1 {
+  font-weight: bold;
+}
 header .nav-link {
   color: #006565 !important;
 }
@@ -10850,6 +10853,9 @@ header button:hover {
   background-color: white;
   border: 1px solid rgb(201, 201, 201);
   border-radius: 7px;
+}
+.train-ride .train-code {
+  color: rgb(101, 101, 101);
 }
 .train-ride .departure .hour, .train-ride .arrival .hour {
   color: #006565;
@@ -10885,11 +10891,6 @@ header button:hover {
   font-size: 0.8rem;
   font-weight: bold;
   color: #890505;
-}
-
-footer {
-  height: 3rem;
-  background-color: yellow;
 }
 
 main {
